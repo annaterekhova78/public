@@ -1,0 +1,98 @@
+body, html {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 860px;
+    background-color:  #ADD8E6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 15px;
+}
+
+.col {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100%;
+    margin: 0 10px;
+}
+
+.block {
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    margin: 10px 0;
+    flex-grow: 1;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+}
+
+.block1 {
+    border: 2px solid aquamarine ;
+    border-radius: 8px;
+    background-color: aquamarine;
+}
+
+.block2 {
+    border: 2px solid greenyellow;
+    border-radius: 8px;
+    background-color: greenyellow;
+}
+
+.row .block {
+    margin: 10px 0;
+}
+
+.block3 {
+    border: 2px solid  #00FF7F; 
+    background-color: #00FF7F;
+}
+
+.block:first-child {
+    margin-top: 0;
+}
+
+.block:last-child {
+    margin-bottom: 0;
+}
+
+.row .block:first-child {
+    margin-left: 0;
+}
+
+.row .block:last-child {
+    margin-right: 0;
+}
+
+.block4 {
+    border: 2px solid #00BFFF;
+    background-color: #00BFFF;
+}
+
+.block5 {
+    border: 2px solid blue;
+    background-color: blue;
+}
+
+.block6 {
+    border: 2px solid aquamarine;
+    background-color: aquamarine;
+}
